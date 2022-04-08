@@ -9,8 +9,11 @@ header{
 }
 header a{
     all: unset;
+    cursor: pointer;
 }
-
+header a:hover{
+    text-decoration: underline;
+}
 .loginButton{
     background: #1a73e8;
     border: 1px solid transparent;
